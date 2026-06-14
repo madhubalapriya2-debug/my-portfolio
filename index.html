@@ -132,21 +132,70 @@ font-size:32px;
 }
 
 
-/* ABOUT */
+
+/* ================= ABOUT NEW STYLE ================= */
 
 
-.about-list li{
+.about-container{
 
-margin:12px 0;
-font-size:18px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+margin-top:25px;
 
 }
 
 
-.highlight{
+.about-card{
+
+background:white;
+padding:25px;
+
+border-radius:18px;
+
+box-shadow:
+0 8px 20px rgba(0,0,0,0.15);
+
+transition:0.3s;
+
+border-left:6px solid #0077b6;
+
+}
+
+
+.about-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:
+0 15px 30px rgba(0,119,182,0.35);
+
+}
+
+
+
+.about-card h3{
+
+color:#003049;
+margin-bottom:10px;
+
+}
+
+
+.about-card p{
+
+font-size:16px;
+line-height:1.6;
+
+}
+
+
+
+.icon{
+
+font-size:35px;
 
 color:#0077b6;
-font-weight:bold;
 
 }
 
@@ -269,12 +318,12 @@ padding:20px;
 <header>
 
 
-<img src="WhatsApp Image 2026-06-14 at 5.19.28 PM.jpeg" class="profile">
+<img src="pdfs/WhatsApp Image 2026-06-14 at 5.19.28 PM.jpeg" class="profile">
 
 
 <h1>Madhubala Priya</h1>
 
-<p>GIS & Remote Sensing Researcher | Geography Scholar</p>
+<p>GIS & Remote Sensing | Research Scholar (Geography)| Web GIS| Python| R| SQL</p>
 
 
 </header>
@@ -297,6 +346,8 @@ padding:20px;
 
 
 
+<!-- ================= ABOUT SECTION UPDATED ================= -->
+
 
 <section id="about">
 
@@ -304,88 +355,133 @@ padding:20px;
 <h2>About Me</h2>
 
 
-<ul class="about-list">
-
-
-<li>
-I am a <span class="highlight">
-Geography Research Scholar
-</span>
-specializing in Remote Sensing and GIS.
-</li>
-
-
-<li>
-My research focuses on
-<span class="highlight">
-flood vulnerability mapping, spatial analysis and environmental risk assessment.
-</span>
-</li>
-
-
-<li>
-I use satellite data, GIS techniques and spatial modelling
-to understand environmental hazards.
-</li>
-
-
-<li>
-My work includes analysis of:
-<ul>
-
-<li>Rainfall patterns</li>
-<li>Elevation and slope</li>
-<li>Drainage networks</li>
-<li>Land Use/Land Cover</li>
-<li>Soil and river proximity</li>
-
-</ul>
-
-</li>
+<div class="about-container">
 
 
 
-<li>
-Experienced in developing
-<span class="highlight">
-Flood Hazard, Vulnerability and Risk Maps
-</span>
-using AHP and weighted overlay techniques.
-</li>
+<div class="about-card">
+
+<div class="icon">🌍</div>
+
+<h3>Geography Research Scholar</h3>
+
+<p>
+
+Specializing in Remote Sensing and GIS with a focus on
+spatial modelling, environmental studies and geographic analysis.
+
+</p>
+
+</div>
 
 
 
-<li>
-Technical expertise in:
-
-<ul>
-
-<li>QGIS & ArcGIS</li>
-
-<li>Python for Geospatial Automation</li>
-
-<li>R for Statistical Analysis</li>
-
-<li>SQL for Spatial Databases</li>
-
-<li>Web GIS Development</li>
-
-</ul>
-
-</li>
 
 
+<div class="about-card">
 
-<li>
-My research aims to support disaster management and 
-sustainable planning. 
-</li>
+<div class="icon">🌊</div>
+
+<h3>Flood Risk Research</h3>
+
+<p>
+
+Working on flood vulnerability mapping,
+hazard assessment and disaster risk reduction
+using geospatial technologies.
+
+</p>
+
+</div>
 
 
-</ul>
+
+
+
+<div class="about-card">
+
+<div class="icon">🛰️</div>
+
+<h3>Remote Sensing Analysis</h3>
+
+<p>
+
+Using satellite imagery for land monitoring,
+LULC change detection, disaster management, temperature analysis
+and environmental assessment.
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="about-card">
+
+<div class="icon">📊</div>
+
+<h3>Spatial Modelling</h3>
+
+<p>
+
+Developing GIS-based models using
+AHP, weighted overlay techniques,
+and spatial statistical approaches.
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="about-card">
+
+<div class="icon">💻</div>
+
+<h3>Technical Skills</h3>
+
+<p>
+
+Experienced with QGIS, ArcGIS,
+Python, R, SQL and Web GIS development
+for geospatial solutions.
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="about-card">
+
+<div class="icon">🌱</div>
+
+<h3>Research Goal</h3>
+
+<p>
+
+Supporting sustainable planning,
+Disaster risk reduction and improved
+environmental decision making.
+
+</p>
+
+</div>
+
+
+
+</div>
 
 
 </section>
+
+
 
 
 
@@ -406,6 +502,8 @@ sustainable planning.
 <li>Python, R, SQL</li>
 
 <li>Flood Risk Modelling</li>
+
+<li>Disaster Risk Mapping</li>
 
 <li>Spatial Analysis</li>
 
@@ -440,7 +538,7 @@ Flood risk mapping using river buffer and proximity analysis.
 </p>
 
 <a class="button"
-href="Capstoneproject1 (1).pdf"
+href="pdfs/Capstoneproject1 (1).pdf"
 target="_blank">
 View PDF
 </a>
@@ -459,12 +557,12 @@ Flood Hazard & Settlement Vulnerability – Khagaria
 
 
 <p>
-Flood analysis using multiple datasets and AHP method and Flood WEB GIS dashboard creation.
+Flood analysis using multiple datasets and AHP method.
 </p>
 
 
 <a class="button"
-href="Capstoneproject2 (2).pdf"
+href="pdfs/Capstoneproject2 (2).pdf"
 target="_blank">
 View PDF
 </a>
@@ -490,7 +588,7 @@ Change detection and future prediction using CA-Markov model.
 
 
 <a class="button"
-href="Capstoneproject3 (1).pdf"
+href="pdfs/Capstoneproject3 (1).pdf"
 target="_blank">
 View PDF
 </a>
@@ -559,7 +657,7 @@ and weighted overlay analysis.
 
 <a class="button"
 
-href="Capstoneproject4 (1).pdf"
+href="pdfs/Capstoneproject4 (1).pdf"
 
 target="_blank">
 
@@ -595,7 +693,7 @@ and PyQGIS based tool creation.
 
 <a class="button"
 
-href="/Capstoneproject5 (1).pdf"
+href="pdfs/Capstoneproject5 (1).pdf"
 
 target="_blank">
 
