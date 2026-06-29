@@ -474,7 +474,7 @@ section h2{
      background:
     linear-gradient(rgba(255,255,255,0.88),
     rgba(255,255,255,0.88)),
-    url("images/cert.jpg");
+    url("cert.jpg");
 
     background-size: cover;
     background-position: center;
