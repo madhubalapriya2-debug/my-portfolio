@@ -27,7 +27,7 @@ body{
 ========================= */
 
 header{
-    background-image: url("images/3d-rendering-planet-earth.jpg");
+    background-image: url("3d-rendering-planet-earth.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ section h2{
     background:
     linear-gradient(rgba(0,0,0,0.65),
     rgba(0,0,0,0.65)),
-    url("images/Remote-sensing.png");
+    url("Remote-sensing.png");
 
     background-size: cover;
     background-position: center;
@@ -189,7 +189,7 @@ section h2{
     background:
     linear-gradient(rgba(255,255,255,0.88),
     rgba(255,255,255,0.88)),
-    url("images/continued-education-featured-image.jpg");
+    url("continued-education-featured-image.jpg");
 
     background-size: cover;
     background-position: center;
@@ -337,23 +337,23 @@ section h2{
 ========================== */
 
 .publication1{
-    background-image:url("paperimages/Screenshot 2026-06-22 at 6.40.55 PM.png");
+    background-image:url("IMG_1356.png");
 }
 
 .publication2{
-    background-image:url("paperimages/Screenshot 2026-06-22 at 6.41.24 PM.png");
+    background-image:url("IMG_1351.png");
 }
 
 .publication3{
-    background-image:url("paperimages/Screenshot 2026-06-22 at 6.41.39 PM.png");
+    background-image:url("IMG_1352.png");
 }
 
 .publication4{
-    background-image:url("paperimages/Screenshot 2026-06-22 at 6.41.55 PM.png");
+    background-image:url("IMG_1353.png");
 }
 
 .publication5{
-    background-image:url("paperimages/Screenshot 2026-06-22 at 6.42.26 PM.png");
+    background-image:url("IMG_1354.png");
 }
 
 /* ==========================
@@ -606,7 +606,7 @@ section h2{
         rgba(255,255,255,0.75),
         rgba(255,255,255,0.75)
     ),
-    url("images/all2.jpeg");
+    url("all2.jpeg");
 
     background-size: cover;
     background-position: center;
@@ -753,27 +753,27 @@ section h2{
 }
 
 .project1{
-    background-image:url('cover/Screenshot 2026-06-16 at 11.13.06 AM.png');
+    background-image:url('IMG_1362png');
 }
 
 .project2{
-    background-image:url('cover/Screenshot 2026-06-16 at 10.51.04 AM.png');
+    background-image:url('IMG_1358.png');
 }
 
 .project3{
-    background-image:url('cover/Screenshot 2026-06-16 at 11.20.08 AM.png');
+    background-image:url('IMG_1365.png');
 }
 
 .project4{
-    background-image:url('cover/Screenshot 2026-06-16 at 11.01.14 AM.png');
+    background-image:url('IMG_1361.png');
 }
 
 .project5{
-    background-image:url('cover/Screenshot 2026-06-16 at 10.59.25 AM.png');
+    background-image:url('IMG_1360.png');
 }
 
 .project6{
-    background-image:url('cover/Screenshot 2026-06-16 at 10.56.02 AM.png');
+    background-image:url('IMG_1359.png');
 }
 
 /* =========================
@@ -811,7 +811,7 @@ button:hover{
     background:
     linear-gradient(rgba(255,255,255,0.88),
     rgba(255,255,255,0.88)),
-    url("images/Resume_photo_do_s_and_don_ts_7509c2143c.jpg");
+    url("Resume_photo_do_s_and_don_ts_7509c2143c.jpg");
 
     background-size: cover;
     background-position: center;
